@@ -30,7 +30,7 @@ logger = logging.getLogger(__name__)
 
 
 # ----- Constants -----
-BASE_URL = "http://ergast.com/api/f1"
+BASE_URL = "http://api.jolpi.ca/ergast/f1"
 DEFAULT_TIMEOUT = 10        # seconds before we give up on a request
 MAX_RETRIES = 3             # how many times to retry a failed request
 RETRY_DELAY = 2             # seconds to wait between retries
@@ -241,4 +241,4 @@ class ErgastClient:
                 "wins":         int(s["wins"]),
             })
 
-        return pd.DataFrame(rows)
+        return pd.DataFrame(rows)

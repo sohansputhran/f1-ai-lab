@@ -1,4 +1,4 @@
-# Project 1 - F1 Race Predictor
+# F1 Race Predictor
 
 Predicts F1 race finishing positions using historical data from the Ergast API.
 
@@ -21,5 +21,6 @@ pip install -r requirements.txt
 ```
 
 ## Data Source
-[Ergast Motor Racing API](http://ergast.com/mrd/) — free, no API key required.
-Covers every F1 season from 1950 to present.
+[Jolpica-F1 API](https://github.com/jolpica/jolpica-f1) — free, open source,
+no API key required. Ergast-compatible endpoints covering every F1 season
+from 1950 to present. Maintained by the F1 open source community.
