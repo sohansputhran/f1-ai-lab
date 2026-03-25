@@ -241,4 +241,4 @@ class ErgastClient:
                 "wins":         int(s["wins"]),
             })
 
-        return pd.DataFrame(rows)
+        return pd.DataFrame(rows)
