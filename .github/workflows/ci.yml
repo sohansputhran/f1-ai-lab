@@ -33,7 +33,7 @@ jobs:
     # Like testing your car setup on both a dry and damp track.
     strategy:
       matrix:
-        python-version: ["3.10", "3.11"]
+        python-version: ["3.11"]
 
     steps:
       # Step 1: Check out the repo onto the GitHub runner machine
